@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us- DT Parfaits</title>
+</head>
+<body>
+    <header class="header">
+        <div class="grid_header">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.jpg" class="temp_logo"></a>
+            </div>
+            <nav class="grid_nav">
+                <ul class="site-nav_list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+             </nav>
+            <div class="grid_siteheadericon">
+                <div class="site_headercartwrapper"><a href="cart.html"><img src="images/cart_icon.jpg" class="cart_icon"></a></div>
+            </div>
+        </div>
+    </header>
+
+    <hr>
+
+    <div class="contactpagecontainer">
+        <main class="contactmaincontent">
+            <div class="page-width" style="margin: 0 auto; max-width: 1200px;">
+                <div class="grid">
+                    <div>
+                        <h1 style="text-align: center; font-family: Work Sans, sans-serif;font-size: 2.1875em;">Contact Us</h1>
+                    </div>
+                    <div class="contactinfo">
+                        <p class="contactlabel">Have a question? We are always happy to assist! </p>
+                    </div>
+                    <div class="contact-form">
+                        <form method="post">
+                            <input type="hidden" name="form_type" value="contact">
+                            <div class="grid-half-gutters" style="display: flex; grid-gap: 2%;">
+                                <div class="grid-item-name-input" style="width: 50%;">
+                                    <label for="Contactform-name" style="width: 100%; padding-left: 0px;" class="contactlabel">Name</label>
+                                    <input type="text" id="Contactform-name" style="width: 100%;  padding-top: 13px;">
+                                </div>
+                                <div class="grid-item-email-input" style="width: 50%;">
+                                    <label for="Contactform-email" class="contactlabel" style="padding-left: 0px;">Email</label>
+                                    <input type="email" id="ContactForm-email" style="width: 100%;  padding-top: 13px;">
+                                </div>
+                            </div>
+                            <div class="grid-half-gutters">
+                                <div class="grid-item-name-input">
+                                    <label for="Contactform-phone" class="contactlabel" style="padding-left: 0px;">Phone Number</label>
+                                    <input type="tel" id="Contactform-phone" style="width: 100%; padding-top: 13px;">
+                                </div>
+                            </div>  
+                            <div class="grid-half-gutters">
+                                <div class="grid-item-name-input">
+                                    <label for="Contactform-message" class="contactlabel" style="padding-left: 0px;">Message</label>
+                                    <textarea rows="10" id="Contactform-message" style="display: block; width:100%;"></textarea>
+                                </div>
+                            </div>
+                            <button style="cursor: pointer; width:80px; padding: 8px; margin-left: 0px; margin-top: 10px;" class="secondary-button">SEND</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div>
+        <footer class="footer">
+            <div class="grid-footer">
+                <div class="footer_content">
+                    <nav class="footer_nav" style="display:flex;">
+                        <div style="display:flex;">
+                            <ul class="site-footernav-list footerlink" style="padding-top:8px;">
+                            <li class="homefooteritem"><a href="index.html " class="margin-left0">Home</a></li>
+                            <li class="menufooteritem"><a href="menu.html">Menu</a></li>
+                            <li class="aboutfooteritem"><a href="about.html">About Us</a></li>
+                            <li class="contactfooteritem"><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    
+                        <form action="/action_page" class="contact-form">
+                            <div style="display:flex; grid-template-columns: 50% 50%; margin-left: 120px;">
+                                <div>
+                                    <input type="email" placeholder="Email Address" id="email" name="email" class="emailinput" style="max-width:150px;">
+                                </div>
+                                <div>
+                                    <button class="secondary-button">SEND</button>
+                                </div>
+                            </div>
+                    </form>
+                    </nav>
+                </div>
+                <hr class="footer_linehr">
+                <div class="pagewidthp">
+                    <p class="footer_p">© 2023, All Rights Reserved, DT Parfaits.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

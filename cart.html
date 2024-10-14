@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Shopping Cart-DT Parfaits</title>
+</head>
+<body>
+    <header class="header">
+        <div class="grid_header">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.jpg" class="temp_logo"></a>
+            </div>
+            <nav class="grid_nav">
+                <ul class="site-nav_list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+             </nav>
+            <div class="grid_siteheadericon">
+                <div class="site_headercartwrapper"><a href="cart.html"><img src="images/cart_icon.jpg" class="cart_icon"></a></div>
+            </div>
+        </div>
+    </header>
+
+    <hr>
+
+    <div class="cartpagecontainer">
+        <main class="contactmaincontent">
+            <div class="page-width">
+                <div class="grid">
+                    <h1 style="text-align: center; font-family: Work Sans, sans-serif;font-size: 2.1875em;">Your Cart</h1>
+                    <a href="menu.html" style="display: block; font-size: 16px; font-family: Work Sans, sans-serif; text-align: center;">Continue Shopping</a>
+                        <table style="width: 100%;" cellpadding="20">
+                            <thead style="border-bottom: 1px solid #cccccc;">
+                                <tr style="font-family: Work Sans, sans-serif;">
+                                    <th colspan="2" style="text-align: left; font-weight: 400;">Product</th>
+                                    <th style="text-align: right; font-weight: 400;">Price</th>
+                                    <th style="text-align: right; font-weight: 400;">Quantity</th>
+                                    <th style="text-align: right; font-weight: 400;">Total</th>
+                                </tr>
+                                <tr><th colspan="5"><hr /></th></tr>
+                            </thead>
+                                <tr>
+                                    <td><img src="images/spicy.jpg" style="max-width: 300px;"></td>
+                                    <td width="400px;" style=" font-weight: 400; font-family: Work Sans, sans-serif; ">Korean Spicy rice cakes<br><p class="remove">Remove</p></td>
+                                    <td style="text-align: right; font-weight: 400; font-family: Work Sans, sans-serif; color: rgb(105, 114, 123);">$20.00</td>
+                                    <td style="text-align: right;"><input type="number" value="1"></td>
+                                    <td style="text-align: right; font-weight: 400; font-family: Work Sans, sans-serif; color: rgb(105, 114, 123);">$20.00</td>
+                                    <tr><th colspan="5"><hr /></th></tr>
+                                </tr>
+                                <tr>
+                                    <td><img src="images/pannacotta.jpg" style="max-width: 300px;"></td>
+                                    <td width="400px" style=" font-weight: 400; font-family: Work Sans, sans-serif;">Panna Cotta Parfait<br><p class="remove">Remove</p></td>
+                                    <td style="text-align: right; font-weight: 400; font-family: Work Sans, sans-serif; color: rgb(105, 114, 123);">$3.50</td>
+                                    <td style="text-align: right;"><input type="number" value="1"></td>
+                                    <td style="text-align: right; font-weight: 400; font-family: Work Sans, sans-serif; color: rgb(105, 114, 123);">$3.50</td>
+                                    <tr><th colspan="5"><hr /></th></tr>
+                                </tr>
+                                <tr>
+                                    <td><img src="images/kimchi_product.jpg" style="max-width: 300px;"></td>
+                                    <td width="400px" style=" font-weight: 400; font-family: Work Sans, sans-serif; ">Kimchi Fried Rice<br><p class="remove">Remove</p></td>
+                                    <td style="text-align: right; font-weight: 400; font-family: Work Sans, sans-serif; color: rgb(105, 114, 123);">$25.00</td>
+                                    <td style="text-align: right;"><input type="number" value="1"></td>
+                                    <td style="text-align: right; font-weight: 400; font-family: Work Sans, sans-serif; color: rgb(105, 114, 123);">$25.00</td>
+                                
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><textarea style="width:90%; font-weight: 400; font-family: Work Sans, sans-serif; font-size: 15px;" placeholder="Notes for Order"></textarea></td>
+                                    <td></td>
+                                    <td style="text-align: right; font-weight: 400; font-family: Work Sans, sans-serif; color: rgb(105, 114, 123);">Subtotal</td>
+                                    <td style="text-align: right; font-weight: 400; font-family: Work Sans, sans-serif; color: rgb(105, 114, 123); ">$48.50 USD</td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td colspan="4"></td>
+                                    <td style="text-align: right;"><button onclick="location.href='info.html';" style="cursor: pointer; width:200px; padding: 8px;">CHECK OUT</button></td>
+                                </tr>
+                        </table> 
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div>
+        <footer class="footer">
+            <div class="grid-footer">
+                <div class="footer_content">
+                    <nav class="footer_nav" style="display:flex;">
+                        <div style="display:flex;">
+                            <ul class="site-footernav-list footerlink" style="padding-top:8px;">
+                            <li class="homefooteritem"><a href="index.html " class="margin-left0">Home</a></li>
+                            <li class="menufooteritem"><a href="menu.html">Menu</a></li>
+                            <li class="aboutfooteritem"><a href="about.html">About Us</a></li>
+                            <li class="contactfooteritem"><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    
+                        <form action="/action_page" class="contact-form">
+                            <div style="display:flex; grid-template-columns: 50% 50%; margin-left: 120px;">
+                                <div>
+                                    <input type="email" placeholder="Email Address" id="email" name="email" class="emailinput" style="max-width:150px;">
+                                </div>
+                                <div>
+                                    <button class="secondary-button">SEND</button>
+                                </div>
+                            </div>
+                    </form>
+                    </nav>
+                </div>
+                <hr class="footer_linehr">
+                <div class="pagewidthp">
+                    <p class="footer_p">© 2023, All Rights Reserved, DT Parfaits.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>

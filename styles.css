@@ -1,0 +1,245 @@
+/*makes the body fill up the page, no white space*/
+body {
+margin:0;
+padding: 0;
+width: 100%;
+overflow-x: hidden;
+}
+button {
+  background-color: #E0696F; color: #FEE4D3; width:100%; min-height: 44px; font-size: 14px; max-width: 400px; margin-left: 8px; font-weight: 600; letter-spacing: 0.08em; font-family: Work Sans, sans-serif;
+  padding: 10px;
+    border-width: 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.secondary-button{
+    background-color: #FEE4D3 ;
+    color:#E0696F;
+}
+.temp_logo {
+    width: 210px;
+    height: auto;
+    margin:0;
+    padding-left: 0;
+    display:block;
+    overflow-x: clip;
+    overflow-y: clip;
+    position: static;
+  }
+  .footer {
+    background-color: #E0696F;
+    color: #fce5d3;
+    text-align: center; 
+    box-sizing: border-box;
+    display: block;
+    margin-top: 55px;
+    padding-bottom: 35px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 45px;
+    text-size-adjust: 100%;
+  }
+  .cart_icon{
+    width: 42px;
+    height: 43px;
+    margin-right: 50px;
+    padding-left: 0;
+    float: none;
+    vertical-align: middle;
+    display: inline;
+  }
+  /*makes the nav links aligned horizontally*/
+  nav li  {
+    float: left;
+    display: list-item;
+    text-align: left;
+  }
+  /*makes the nav links spaced out and gets rid of the underline*/
+  nav a {
+    width:100px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 180px; 
+    transition: all 0.3s ease 0s;
+    font-family: Work Sans,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #3d4246;
+    display: inline;
+  }
+  /*text color for nav footer*/
+  nav .footerlink a {
+    color:#FEE4D3;
+  }
+  /*makes email submission box align with the nav footer links*/
+.margin-left0 {
+    margin-left: 0px;
+  }
+  ul li a:hover{
+    text-decoration: underline;
+  }
+  /*gets rid of the bullets*/
+  ul {
+    padding:0;
+   display: block;
+   margin-block-end: 0px;
+   margin-block-start: 0px; 
+   list-style-position: outside;
+    list-style:none;
+  }
+  /*makes header more to the the center and makes header space longer*/
+  .header {
+    padding-top: 0px;
+    padding-right: 55px;
+    padding-bottom: 0px;
+    padding-left: 55px;
+    margin-left: 0;
+    display: table;
+    table-layout: fixed;
+    width: 1580.67px;
+    height: 170px;
+    background-color: #fff;
+  }
+ .grid_nav {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  float: none;
+ }
+ /*makes cart icon aligned with the others*/
+.grid_siteheadericon {
+vertical-align: middle;
+display: table-cell;
+}
+/*makes cart icon padding even to the logo's*/
+.site_headercartwrapper {
+  width: 42px;
+  height: 43px;
+ padding-left: 0%;
+ padding-top: 0%;
+ padding-bottom: 0%;
+ display: block;
+}
+.footer_p {
+  font-family: Work Sans,sans-serif;
+    color: #FEE4D3;
+    font-size: small;
+    box-sizing: border-box;
+    display: block;
+    margin-left: 0;
+}
+/*makes header nav links/icon aligned with logo*/
+.logo {
+  display: table-cell
+}
+/*makes footer content links centered*/
+.footer_content {
+  align-items: flex-start;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+  width: 100%;
+  max-width:1200px;
+  margin: 0 auto;
+}
+.footer_linehr {
+  border-width: 0px;
+  box-sizing: border-box;
+  display: block;
+  border: 0;
+  border-bottom: 1px solid #FEE4D3;
+}
+.emailinput {
+  padding: 10px;
+  min-height: 21px;
+  box-sizing: border-box;
+}
+
+/*about us page css*/
+.chef_photo {
+  width:  100%;
+  text-align: left;
+  max-width: 545px;
+}
+.aboutsectiontitle {
+  margin-bottom: 55px;
+  text-align: center !important;
+  box-sizing: border-box;
+  display: block;
+}
+.h1 {
+  font-size: 2.187em;
+  text-transform: none;
+  letter-spacing: 0;
+  font-family: Work Sans,sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  box-sizing: border-box;
+  display: block;
+}
+.chef-quote {
+  font-style: italic;
+  font-family: adobe-garamond-pro;
+  font-size: 17px;
+}
+
+.contact-form label {
+padding:12px;
+display: block;
+}
+.page-width {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.total-area {
+  display: grid; 
+  grid-template-columns: 50% 50%;
+  margin-bottom: 10px;
+}
+.total-area p {
+ margin-block-start: 0;
+ margin-block-end: 0;
+ 
+
+}
+
+.active {
+  display: grid; grid-template-columns: 50% 50%; background-color: rgb(242, 247, 255); padding: 10px; 
+}
+
+.nonactive {
+  display: grid;
+   grid-template-columns: 50% 50%; 
+   padding: 10px;
+}
+.remove {
+  margin-top: 6px; border-bottom: 1px solid #E0696F; color: #E0696F; margin-right: 206px; font-size: 16px; cursor: pointer;
+}
+.contactlabel {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  color: #3d4246;
+  padding-left: 0px;
+}
+.totaldescript {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+  font-weight: 500;
+}
+.paytitle {
+  margin-block-start: 0; font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif; font-weight: 600;
+}
+.returns {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+  font-size: 14px;
+}
+
+
+
+  
+
+
+  
+ 
+
+  
